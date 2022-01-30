@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,11 +8,31 @@
     <title>Minesweeper</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body onload="init()">
-    <div class="container-board"></div>
-    <!-- <button></button> -->
-    
+    <h1>Minesweeper by Or Kopel</h1>
+    <link href="http://fonts.cdnfonts.com/css/arcade-classic" rel="stylesheet">
+    <div class="main-container">
+        <div class="content">
+            <button class="faces" onclick="smiley()" >😀</button>
+            <div class="container-board"></div>
+            <img src="" alt="">
+            <p class="timer"></p>
+            
+            <!-- <button></button> -->
+            <div class="buttons">
+                <button class="beginner" onclick="changeToBeginner()">Beginner</button>
+                <button class="medium" onclick="changeToMedium()">Medium</button>
+                <button class="expert" onclick="changeToExpert()">Expert</button>
+            </div>
+        </div>
+
+
+
+    </div>
+
     <script src="/utils.js"></script>
     <script src="script.js"></script>
 </body>
+
 </html>

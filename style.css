@@ -1,12 +1,63 @@
+
+
 body {
     background-color: rgb(255, 255, 255);
-    color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    background-image: url('/img/bck.jpg');
+
   }
-  
-  .cell {
-    border: 1px solid black;
+  .main-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'ArcadeClassic', sans-serif;
+    
+  }
+
+.faces {
+  margin-bottom: 10px;
+  order: 2;
+  }
+
+.cell {
+    text-align: center;
+    border: 1px solid rgb(255, 255, 255);
     width: 40px;
     height: 40px;
-    text-align: center;
     font-size: 1.5em;
+    font-family: 'ArcadeClassic', sans-serif;
+    padding: 5px;
   }
+  
+.timer {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'ArcadeClassic', sans-serif;
+  }
+  
+  .buttons {
+    font-family: 'ArcadeClassic', sans-serif;
+    text-align: center;
+  }
+  
+  h1 {
+    font-family: 'ArcadeClassic', sans-serif;
+    text-align: center;
+  }
+  
+  
+  .expert {
+    font-family: 'ArcadeClassic', sans-serif;
+    
+  }
+  .medium {
+    font-family: 'ArcadeClassic', sans-serif;
+    
+  }
+  .beginner {
+    font-family: 'ArcadeClassic', sans-serif;
+    
+  }
+  
+  
+  @import url('http://fonts.cdnfonts.com/css/arcade-classic');
